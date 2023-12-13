@@ -17,5 +17,5 @@ print(project_id)
 
 
 
-cmd = f'sed -e "s/GCP_PROJECT_ID/{project_id}/g" -e "s/GCP_MACHINE_TYPE/{input_machine_type}/g" main_template.tf > main.tf'
+cmd = f'sed -e "s/GCP_PROJECT_ID/{project_id}/g" -e "s/GCP_MACHINE_TYPE/{input_machine_type}/g" templates/main_template.tf > main.tf'
 subprocess.run(cmd, shell=True)
