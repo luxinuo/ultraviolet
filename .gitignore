@@ -1,0 +1,7 @@
+terraform/gcp/.terraform/providers/registry.terraform.io/hashicorp/google/5.9.0/darwin_arm64/terraform-provider-google_v5.9.0_x5
+terraform/gcp/terraform.tfstate.backup
+terraform/gcp/terraform.tfstate
+terraform/gcp/main.tf
+src/.DS_Store
+.DS_Store
+terraform/gcp/.terraform.lock.hcl

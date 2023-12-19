@@ -562,3 +562,8 @@ shard-demo-script-show:
 shard-conf:
 	python3.11 bin/shard.py
 
+coord-urls:
+	./coord_url.py
+
+coord-url:
+	./coord_url.py > .tmp_coord
